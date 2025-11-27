@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class LuciacazorlaController {
     @GetMapping("/saludo-lucia")
     public String hola() {
-        return "¡Hola Mundo!";
+        return "¡Hola Mundo! Lucía Cazorla";
     }
 }

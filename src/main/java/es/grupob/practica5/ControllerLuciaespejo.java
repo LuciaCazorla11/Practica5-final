@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerLuciaespejo {
     @GetMapping("/hola")
     public String hola() {
-        return "¡Hola Mundo! Soy Lucia Espejo Molina";
+        return "¡Hola Mundo! Soy Lucia Espejo este es mi controlador";
     }
 }
